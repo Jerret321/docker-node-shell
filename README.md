@@ -1,7 +1,8 @@
 
 ### 使用docker管理博客 项目之间彼此隔离
 
-每个项目使用自己的docker，dockerfile，互不冲突，进程独立。
+每个项目使用自己的docker，dockerfile，互不冲突，进程独立。如果您觉得下面太啰嗦的话，可以直接使用`sh start_server.sh`运行~。
+但建议看下过程，对您或许有些帮助。
 
 ####  创建属于自己的docker镜像
 
