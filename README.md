@@ -1,4 +1,8 @@
+
 ### 使用docker管理博客 项目之间彼此隔离
+
+每个项目使用自己的docker，dockerfile，互不冲突，进程独立。
+
 ####  创建属于自己的docker镜像
 
 根据自己的爱好，搭建一个base环境，以博主为例，搭建centos，node，npm基础环境镜像。避免"墙"的影响，使用[阿里云docker镜像](https://cr.console.aliyun.com)托管。具体的过程可以参考[这篇文章](https://github.com/widuu/chinese_docker/blob/master/userguide/dockerimages.md)
@@ -47,3 +51,5 @@ npm start // 启动web服务
 ### 问题
 - [ ] 如何维护docker container一直运行，目前使用tmux来维护，很糙, 且机子重启后docker需要重新启动，重新进行一系列操作
 - [ ] 多个端口 多个服务目前实现不了，需要用docker compose解决
+
+
