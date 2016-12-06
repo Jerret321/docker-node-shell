@@ -3,5 +3,6 @@
 - 配置dockerfile 安装必要依赖
 - 运行程序
 
-## QA
+## 疑问
 - [ ] 如何维护docker container一直运行，目前使用tmux来维护，很糙
+- [ ] 使用docker compose来维护多服务
